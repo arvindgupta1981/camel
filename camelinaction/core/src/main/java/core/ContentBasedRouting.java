@@ -11,9 +11,14 @@ public class ContentBasedRouting {
 			
 			@Override
 			public void configure() throws Exception {
-				
+				from("file:data/indir?noop=true").to("jms:incomingOrderQueue");
+				from("jms:incomingOrderQueue").to("file:data/outdir");
 			}
 		});
+		
+		camelContext.start();
+		Thread.sleep(3000);
+		camelContext.stop();
 	}
 
 }
