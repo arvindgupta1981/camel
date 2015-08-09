@@ -4,6 +4,11 @@
   <artifactId>camelinaction</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+ 
+  <properties>
+      <camel-version>2.0.0</camel-version>
+      
+  </properties>
   <modules>
   	<module>core</module>
   </modules>
