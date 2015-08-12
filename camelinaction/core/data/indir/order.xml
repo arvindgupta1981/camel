@@ -1,6 +1,0 @@
-<xml>
-	<order customer="honda">
-		<part partNo="x10000" qty="1"></part>
-	</order>
-
-</xml>

@@ -7,24 +7,5 @@
 		<artifactId>camelinaction</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<dependencies>
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-core</artifactId>
-			<version>${camel-version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-jms</artifactId>
-			<version>${camel-version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.activemq</groupId>
-			<artifactId>activemq-all</artifactId>
-			<version>5.10.0</version>
-		</dependency>
-
-		
-	</dependencies>
+	
 </project>
